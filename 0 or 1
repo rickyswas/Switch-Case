@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int choice;
+	printf("Print 0/1 : ");
+	scanf("%d",&choice);
+	switch(choice)
+	{
+		case 0:
+			printf("0");
+			break;
+		case 1:
+			printf("1");
+			break;
+		default :
+			printf("Number not in the list");		
+	}
+	return 0;
+}
